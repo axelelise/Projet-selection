@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="menu active">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Shelly</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/shelly.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Nita</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/nita.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Colt</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/colt.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Bull</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/bull.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Jessie</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/jessie.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Brock</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/brock.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Dynamike</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/dynamike.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Bo</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/bo.png" height="500px">
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="brawler">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Tick</h1>
+                </div>
+            </div>
+            <div class="brawler-fond">
+                <img src="image/tick.png" height="500px">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document).on("click", ".menu", function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+</body>
+</html>
